@@ -200,7 +200,7 @@
 
 		<br>
 		<a style="margin-right: 50px"  class="btn btn-primary" href="{{ url('subjects') }}" >Summit</a>
-		<a class="btn btn-danger" href="{{ url('reservation') }}" >Cancle</a>
+		<a class="btn btn-danger" href="{{ url('reservation') }}" >cancle</a>
 		<br><br>
 	  </div>
 
