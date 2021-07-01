@@ -9,7 +9,7 @@
     <div>
 					                        
       <br>
-      <h2 style="text-align: center" >เลือกวิชาที่ต้องการจอง</h2>
+      <h2 style="text-align: center" >เลือกวิชาที่ต้องการจอง ปามโง่</h2>
       <br>
       <select class="form-group form-control-sm" id="menu">
       <option value="{{ url('Basketball') }}">080303501 BASKETBALL</option>
