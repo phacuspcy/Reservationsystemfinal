@@ -6,7 +6,7 @@
 
 @section('content')
                                
-    <h6>COMPUTER Test</h6>
+    <h6>COMPUTER Test Test</h6>
     <h6>COMPUTER SCIENCE</h6>
     <h6>COMPUTER SCIENCE</h6>
     <h6>COMPUTER SCIENCE</h6>
