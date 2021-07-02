@@ -10,12 +10,13 @@
 
     /*---------------------อัพโหลดแล้วภาพจะขึ้น------------------------*/
     
-    <h1>อัพโหลดรูปภาพสถิติการได้เกรด</h1>
+    <h3>แก้ไขสถิติการได้เกรด</h3>
     <br><br>
     <form action="/editgrade">
-      <label for="img">เลือกรูปภาพ :</label>
+      <label for="img">เลือกรูปภาพสถิติการได้เกรด</label>
       <input type="file" id="img" name="img"  accept="image/*">
-      <input type="submit" class="btn btn-primary btn-lg active">
+      <br>
+      <input type="submit" value="ยืนยัน" class="btn btn-primary btn-lg active">
       
 
     </form>

@@ -11,6 +11,7 @@
     <span>ปีการศึกษา : &nbsp;&nbsp;</span>
     <select class="form-group form-control-sm" style="width: 80px">
       <option>2563</option>
+      <option>2564</option>
     </select>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -18,7 +19,7 @@
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
+          ['Task', 'Select Subject'],
           ['BASKETBALL',     1],
           ['VOLLEYBALL',      1],
           ['BADMINTON',  1],
@@ -28,7 +29,7 @@
 
         var options = {
             
-          title: 'สถิติการจองวิชาเรียน',
+          title: 'สถิติการจองวิชาเรียน' ,
           is3D: true,
         };
 
@@ -38,7 +39,7 @@
     </script>
   </head>
   <body>
-    <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+    <div id="piechart_3d" style="width: 1280px; height: 700px;"></div>
   </body>
 
     

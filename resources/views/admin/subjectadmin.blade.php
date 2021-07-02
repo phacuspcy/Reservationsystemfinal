@@ -5,7 +5,8 @@
 @section('title','index')
 
 @section('content')
-                               
+<h3>แก้ไขรายวิชาเรียนที่เปิด</h3>
+<br>
 <div class="table100 ver1 m-b-110">
 	<table data-vertable="ver1">
 	  <thead>

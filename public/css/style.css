@@ -1345,3 +1345,24 @@ body {font-family: Arial, Helvetica, sans-serif;}
     /*--------------------------------CHART------------------------------------------------*/
 
  
+
+    /*---------------IMG SUBJECT---------------------*/
+
+          input[type="file"] {
+                display: none;
+          }
+          label {
+            color: white;
+            height: 60px;
+            width: 250px;
+            background-color: #f5af09;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }

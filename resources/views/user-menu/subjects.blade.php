@@ -7,7 +7,7 @@
 @section('content')
                                
 <div class="table100 ver1 m-b-110">
-	<h3>วิชาเรียนที่เปิด</h3><br>
+	<h3>รายวิชาเรียนที่เปิด</h3><br>
 	<table data-vertable="ver1">
 	  <thead>
 		<tr class="row100 head">

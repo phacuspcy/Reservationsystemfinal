@@ -18,7 +18,7 @@
       <option value="{{ url('Dancing') }}">080303504 DANCING</option>
       <option value="{{ url('Tabletennis') }}">080303505 TABLETENNIS</option>
       </select>
-      <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" id="goBtn" >Summit</a>
+      <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" id="goBtn" >ยืนยัน</a>
 
 	</div>
     
