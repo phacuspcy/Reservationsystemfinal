@@ -21,7 +21,7 @@
 	  <tbody>
 		<tr class="row100">
 		  <td class="column100 " data-column="column1">080303503</td>
-		  <td class="column100 column2" data-column="column2">080303501 BASKETBALL 1(0-1)</td>
+		  <td class="column100 column2" data-column="column2">BASKETBALL 1(0-1)</td>
 		  <td class="column100 column3" data-column="column3">1</td>
 		  <td class="column100 column4" data-column="column4">50</td>
   

@@ -14,7 +14,7 @@
     <br><br>
     <form action="/editgrade">
       <label for="img">เลือกรูปภาพ :</label>
-      <input type="file" id="img"name="img"  accept="image/*">
+      <input type="file" id="img" name="img"  accept="image/*">
       <input type="submit" class="btn btn-primary btn-lg active">
       
 

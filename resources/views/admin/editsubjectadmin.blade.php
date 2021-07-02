@@ -20,10 +20,10 @@
 	  </thead>
 	  <tbody>
 		<tr class="row100">
-		  <td class="column100 " data-column="column1">080303503</td>
-		  <td class="column100 column2" data-column="column2"><input type="text"></td>
-		  <td class="column100 column3" data-column="column3">1</td>
-		  <td class="column100 column4" data-column="column4">50</td>
+		  <td class="column100 " data-column="column1"><input type="text" value="080303503" ></td>
+		  <td class="column100 column2" data-column="column2"><input type="text" value="BASKETBALL 1(0-1)" ></td>
+		  <td class="column100 column3" data-column="column3"><input type="text" value="1" ></td>
+		  <td class="column100 column4" data-column="column4"><input type="text" value="50" ></td>
   
 		  
 		</tr>
