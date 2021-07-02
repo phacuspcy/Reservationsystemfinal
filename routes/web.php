@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user.index');
 });
 Route::get('/template', function () {
     return view('layouts.template');
@@ -25,9 +25,9 @@ Route::get('/header', function () {
 Route::get('/slidebar', function () {
     return view('layouts.slidebar');
 });
-Route::get('/index', function () {
-    return view('user.index');
-});
+// Route::get('/index', function () {
+//     return view('user.index');
+// });
 Route::get('/subjects', function () {
     return view('user-menu.subjects');
 });
