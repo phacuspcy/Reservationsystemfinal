@@ -92,3 +92,7 @@ Route::get('/editsubject', function () {
 Route::get('/editsubjectadmin', function () {
     return view('admin.editsubjectadmin');
 });
+
+Route::get('/editstat', function () {
+    return view('admin.editstatreservation');
+});

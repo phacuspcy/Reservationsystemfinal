@@ -35,6 +35,9 @@
                       <a href="{{ url('editreservation') }}"><span class="mr-3"></span> แก้ไขรายการจองวิชาเรียน</a>
                   </li>
                   <li>
+                    <a href="{{ url('editstat') }}"><span class="mr-3"></span> แก้ไขสถิติการจองวิชาเรียน</a>
+                  </li>
+                  <li>
                     <a href="{{ url('editgrade') }}"><span class="mr-3"></span> แก้ไขสถิติการได้เกรด</a>
                   </li>
                   <li>

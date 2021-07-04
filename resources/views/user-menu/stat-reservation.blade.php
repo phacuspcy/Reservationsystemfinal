@@ -8,11 +8,32 @@
                                
 
   <head>
+    <h3>สถิติการจองวิชาเรียน</h3><br>
+
     <span>ปีการศึกษา : &nbsp;&nbsp;</span>
-    <select class="form-group form-control-sm" style="width: 80px">
+    {{-- <select id="select" class="form-group form-control-sm" style="width: 80px" onchange="myFunction()"> --}}
+    <select id="select" class="form-group form-control-sm" style="width: 80px">
+
       <option>2563</option>
       <option>2564</option>
     </select>
+
+    <br>
+    {{-- <a id="year"></a>  --}}
+
+      <body>
+        <div id="piechart_3d" style="width: 1280px; height: 700px;"></div>
+      </body>
+    
+
+      {{-- <script>
+        function myFunction() {
+        var x = document.getElementById("select").value;
+        document.getElementById("year").innerHTML = "ํ Year : " + x;
+      }
+      </script> --}}
+
+
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
@@ -38,9 +59,8 @@
       }
     </script>
   </head>
-  <body>
-    <div id="piechart_3d" style="width: 1280px; height: 700px;"></div>
-  </body>
+
+    
 
     
 @endsection
