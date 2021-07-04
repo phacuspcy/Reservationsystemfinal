@@ -31,6 +31,6 @@
         goBtn.onclick = function() {
           window.location = menu.value;
         }
-               </script>
+      </script>
             
 @endsection

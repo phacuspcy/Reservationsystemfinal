@@ -199,8 +199,8 @@
 	
 
 		<br>
-		<a style="margin-right: 50px"  class="btn btn-primary" href="{{ url('subjects') }}" >Summit</a>
-		<a class="btn btn-danger" href="{{ url('reservation') }}" >Cancle</a>
+		<a style="margin-right: 50px"  class="btn btn-primary" href="{{ url('subjects') }}" >ยืนยัน</a>
+		<a class="btn btn-danger" href="{{ url('reservation') }}" >ยกเลิก</a>
 		<br><br>
 	  </div>
 

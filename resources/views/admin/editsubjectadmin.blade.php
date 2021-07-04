@@ -37,5 +37,7 @@
     <a href="{{ url('editsubject') }}"  class="btn btn-danger">ยกเลิก</a>
     
      
+
+	
     
 @endsection

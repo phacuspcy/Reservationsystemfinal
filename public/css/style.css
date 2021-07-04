@@ -1206,28 +1206,19 @@ input[type=text], select, textarea {
 
 /*-------------------------------VIEW FORM------------------------------------*/
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-}
+
 
 /* The popup form - hidden by default */
 .form-popup {
+
   display: none;
   position: fixed;
-  bottom: 20px;
+  right: 1%;
+  bottom: 1%;
+  bottom: 10px;
   
 }
 
@@ -1348,7 +1339,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
     /*---------------IMG SUBJECT---------------------*/
 
-          input[type="file"] {
+      /*    input[type="file"] {
                 display: none;
           }
           label {
@@ -1365,4 +1356,81 @@ body {font-family: Arial, Helvetica, sans-serif;}
             display: flex;
             justify-content: center;
             align-items: center;
+          } 
+      */
+
+  /*---------------UPLOAD---------------------*/
+
+
+          
+
+          
+          #custom_input {
+            position: relative;
+            font-size: 20px;
+            border: 3px solid black;
+            height: 40px;
+            width: 150px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            background-color: rgb(224, 187, 64);
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.3s;
           }
+          
+          #custom_input::before
+          #custom_input::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: gray;
+            z-index: -1;
+            transition: all 0.3s;
+          }
+          
+          #custom_input::before {
+            transform: translateX(-100%);
+          }
+          
+          #custom_input::after {
+            transform: translateX(100%);
+          }
+          
+          #custom_input:hover::before,
+          #custom_input:hover::after {
+            transform: translateX(0%);
+          }
+          
+          #custom_input:hover {
+            color: white;
+          }
+          
+          #custom_input:focus {
+            outline: none;
+          }
+          
+          /* file */
+          
+          #file_name {
+            font-size: 20px;
+            height: 40px;
+            color: white;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            transition: all 0.5s;
+          }
+          
+          #file_name.active {
+            padding: 0 10px;
+            
+          }
+          
+          #real_input {
+            display: none;
+          }
+          

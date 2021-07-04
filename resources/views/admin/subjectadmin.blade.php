@@ -33,7 +33,7 @@
   </div>
 
   <br>
-        <a href="{{ url('editsubjectadmin') }}"  class="btn btn-success">แก้ไขรายวิชาเรียนที่เปิด</a>
+        <a href="{{ url('editsubjectadmin') }}"  class="btn btn-warning">แก้ไขรายวิชาเรียนที่เปิด</a>
     
      
     

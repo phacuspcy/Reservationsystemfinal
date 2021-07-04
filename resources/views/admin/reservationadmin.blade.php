@@ -31,10 +31,132 @@
           
         </tr>
       </tbody>
+
+
     </table>
     
   </div>
     
+  <div class="form-popup" id="myForm" >
+    <form action="/action_page.php" class="form-container">
+      <table style ="background: #36304a">
+        
      
+   
+       
+       <tr>
+         <th style="text-align: right" >ตอนเรียน :</th>
+         <th style="text-align: left">
+           <span>S.1 M 08:00 - 10:00</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>08:00 - 10:00</option>
+             <option>10:00 - 12:00</option>
+             <option>13:00 - 15:00</option>
+             <option>16:00 - 18:00</option>
+             <option>18:00 - 20:00</option>
+           </select> --}}
+         </th>
+       </tr>
+   
+      
+       <tr>
+         <th style="text-align: right">คณะ :</th>
+         <th style="text-align: left">
+           <span >04 คณะวิทยาศาสตร์ประยุกต์</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>04 คณะวิทยาศาสตร์ประยุกต์</option>
+           </select> --}}
+         </th>
+       </tr>
+
+       <tr>
+         <th style="text-align: right">ภาควิชา :</th>
+         <th style="text-align: left">
+           <span>วิทยาการคอมพิวเตอร์และสารสนเทศ (CS)</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>04 คณะวิทยาศาสตร์ประยุกต์</option>
+           </select> --}}
+         </th>
+       </tr>
+     
+       <tr> 
+         <th style="text-align: right">หลักสูตร :</th>
+         <th style="text-align: left">
+           <span>59040644 CS หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>59040644 CS หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</option>
+           </select> --}}
+         </th>
+       </tr>
+   
+       <tr>
+         <th style="text-align: right">ชั้นปี :</th>
+         <th style="text-align: left">
+           <span>2</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>1</option>
+           </select> --}}
+         </th>
+       </tr>
+   
+       <tr>
+         <th style="text-align: right">ประเภทนักศึกษา :</th>
+         <th style="text-align: left">
+           <span>R ปกติรอบเช้า</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>R ปกติรอบเช้า</option>
+           </select> --}}
+         </th>
+       </tr>
+   
+       <tr>
+         <th style="text-align: right">รอบการเรียน :</th>
+         <th style="text-align: left">
+           <span>R รอบเช้า</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>R รอบเช้า</option>
+           </select> --}}
+           
+         </th>
+       </tr>
+   
+       <tr>
+         <th style="text-align: right">ห้องเรียน :</th>
+         <th style="text-align: left">
+           <span>A</span>
+           {{-- <select class="form-group form-control-sm">
+             <option>A</option>
+           </select> --}}
+         </th>
+       </tr>
+   
+   
+       <tr>
+         <th style="text-align: right">จำนวนนักศึกษาที่ต้องการจอง :</th>
+         <th style="text-align: left">
+           <span>40</span>
+           {{-- <input type="text" class="center" placeholder="40"> --}}
+         </th>
+       </tr>
     
+    
+      </table>
+        <br>
+        <a style="margin-right: 50px"  class="btn btn-danger" >ยกเลิกการจอง</a>
+        <a class="btn btn-warning" onclick="closeForm()">ปิด</a>
+        <br><br>
+    </form>
+     
+  </div>
+    
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
+
 @endsection
