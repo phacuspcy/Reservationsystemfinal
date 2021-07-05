@@ -96,3 +96,7 @@ Route::get('/editsubjectadmin', function () {
 Route::get('/editstat', function () {
     return view('admin.editstatreservation');
 });
+
+Route::get('/editgradeadmin', function () {
+    return view('admin.editgrade');
+});

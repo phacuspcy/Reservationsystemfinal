@@ -10,9 +10,7 @@
   
     <h3>แก้ไขสถิติการได้เกรด</h3>
     <br>
-    <a href="{{ url('editgradeadmin') }}"  class="btn btn-warning">แก้ไข</a>
-    <br><br>
-
+    
     <div class="table100 ver1 m-b-110">
       <table data-vertable="ver1">
         <thead>
@@ -20,6 +18,7 @@
           <th class="column100 column1" data-column="column1">ปีการศึกษา</th>
           <th class="column100 column2" data-column="column2">ภาคเรียน</th>
           <th class="column100 column3" data-column="column3">สถิติการได้เกรด</th>
+          <th class="column100 column3" data-column="column4"></th>
           
           
           
@@ -27,10 +26,10 @@
         </thead>
         <tbody>
         <tr class="row100">
-          <td class="column100 " data-column="column1">2563</td>
-          <td class="column100 column2" data-column="column2">1</td>
-          <td class="column100 column3" data-column="column3">ไฟล์ PDF</td>
-
+          <td class="column100 " data-column="column1"><input type="text" value="2563" ></td>
+          <td class="column100 column2" data-column="column2"><input type="text" value="1"></td>
+          <td class="column100 column2" data-column="column3">ไฟล์ PDF</td>
+          <td class="column100 column4" data-column="column4"><input id="real_input" type="file"><button id="custom_input">อัพโหลด</button><span id='file_name'><br>ชื่อไฟล์.pdf</span></td>
           
       
           
@@ -39,6 +38,9 @@
       </table>
       </div>
 
+      <br>
+      <a style="margin-right: 50px"  class="btn btn-success">ตกลง</a>
+      <a href="{{ url('editgrade') }}"  class="btn btn-danger">ยกเลิก</a>
    
 
       {{-- <label for="img">เลือกรูปภาพสถิติการได้เกรด</label> 
@@ -48,10 +50,12 @@
       <input type="submit" value="ยืนยัน" class="btn btn-primary btn-lg active">
        --}}
 
+ 
 
+    
     </body>
     
-    {{-- <script>
+    <script>
         const inputButton = document.querySelector('#real_input');
     const customButton = document.querySelector('#custom_input');
     const fileName = document.querySelector('#file_name');
@@ -71,10 +75,10 @@
   } else {
     fileName.classList.remove('active');
     customButton.innerHTML = "อัพโหลด";
-    customButton.style.width = '150px';
+    customButton.style.width = '100px';
   }
 });
 
-    </script> --}}
+    </script>
     
 @endsection
