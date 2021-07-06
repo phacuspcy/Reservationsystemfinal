@@ -15,11 +15,55 @@
   <option>2564</option>
 </select>
 
-<a href="{{ url('editstatadmin') }}"  class="btn btn-warning">แก้ไข</a>
-
 
 <br>
+<div class="container">
+    <br>
+    <table style ="background: #36304a">
 
+    <tr>
+        <th style="text-align: right">BASKETBALL :</th>
+        <th style="column-width: 100px">
+            <input type="text" class="center">
+        </th>
+        <th style="text-align: right">VOLLEYBALLL :</th>
+        <th style="column-width: 100px">
+            <input type="text" class="center">
+        </th>
+        <th style="text-align: right">BADMINTON :</th>
+        <th style="column-width: 100px">
+            <input type="text" class="center">
+        </th>
+        <br>
+        
+        
+    </tr>
+
+    <tr>
+        <th style="text-align: right">DANCING :</th>
+        <th style="column-width: 100px">
+            <input type="text" class="center">
+        </th>
+        <th style="text-align: right">TABLETENNIS :</th>
+        <th style="column-width: 100px">
+            <input type="text" class="center">
+        </th>
+        
+        <br>
+        
+        
+    </tr>
+
+
+</table>
+
+
+    <br>
+    <a style="margin-right: 50px"  class="btn btn-success" href="{{ url('editstat') }}" >ตกลง</a>
+    <a class="btn btn-danger" href="{{ url('editstat') }}" >ยกเลิก</a>
+    <br><br>
+  </div>
+<br>
 
 <body>
     <div id="piechart_3d" style="width: 1280px; height: 700px;"></div>

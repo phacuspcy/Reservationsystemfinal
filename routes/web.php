@@ -100,3 +100,7 @@ Route::get('/editstat', function () {
 Route::get('/editgradeadmin', function () {
     return view('admin.editgrade');
 });
+
+Route::get('/editstatadmin', function () {
+    return view('admin.editstatadmin');
+});
