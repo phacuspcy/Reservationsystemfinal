@@ -10,8 +10,6 @@
   
     <h3>แก้ไขสถิติการได้เกรด</h3>
     <br>
-    <a href="{{ url('editgradeadmin') }}"  class="btn btn-warning">แก้ไข</a>
-    <br><br>
 
     <div class="table100 ver1 m-b-110">
       <table data-vertable="ver1">
@@ -37,6 +35,9 @@
         </tr>
         </tbody>
       </table>
+        <br>
+      <a href="{{ url('editgradeadmin') }}"  class="btn btn-warning">แก้ไข</a>
+
       </div>
 
    

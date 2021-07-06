@@ -21,8 +21,9 @@
 	  </thead>
 	  <tbody>
 		<tr class="row100">
-		  <td class="column100 " data-column="column1"><input type="text" value="080303503" ></td>
-		  <td class="column100 column2" data-column="column2"><input type="text" value="BASKETBALL 1(0-1)" ></td>
+		  <td class="column100 " data-column="column1"><select><option type="text" value="080303503" >080303503</option><option>080303501</option></select></td>
+		  <td class="column100 column2" data-column="column2">BASKETBALL 1(0-1) เปลี่ยน ตาม id</td>
+		  {{-- <td class="column100 column2" data-column="column2"><input type="text" value="BASKETBALL 1(0-1)" ></td> --}}
 		  <td class="column100 column3" data-column="column3"><input type="text" value="1" ></td>
 		  <td class="column100 column4" data-column="column4"><input type="text" value="50" ></td>
   
