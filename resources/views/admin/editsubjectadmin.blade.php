@@ -21,8 +21,8 @@
 	  </thead>
 	  <tbody>
 		<tr class="row100">
-		  <td class="column100 " data-column="column1"><select id = "subject" onchange="myFunction()"><option type="text" value="BASKETBALL 1(0-1)" >080303501</option><option type="text" value="VOLLEYBALL 1(0-1)">080303502</option></select></td>
-		  <td class="column100 column2" data-column="column2"><a id="select">ขึ้นตรงกับที่เลือก ID ไว้</a></td>
+		  <td class="column100 " data-column="column1"><select id = "subject" onchange="myFunction()"><option type="text" value = "">กรุณาเลือกวิชา</option><option type="text" value="BASKETBALL 1(0-1)" >080303501</option><option type="text" value="VOLLEYBALL 1(0-1)">080303502</option></select></td>
+		  <td class="column100 column2" data-column="column2"><a id="select"></a></td>
 		  {{-- <td class="column100 column2" data-column="column2"><input type="text" value="BASKETBALL 1(0-1)" ></td> --}}
 		  <td class="column100 column3" data-column="column3"><input type="text" value="1" ></td>
 		  <td class="column100 column4" data-column="column4"><input type="text" value="50" ></td>
