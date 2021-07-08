@@ -59,7 +59,7 @@
 
 
     <br>
-    <a style="margin-right: 50px"  class="btn btn-success" href="{{ url('editstat') }}" >ตกลง</a>
+    <a style="margin-right: 50px"  class="btn btn-success" >ตกลง</a>
     <a class="btn btn-danger" href="{{ url('editstat') }}" >ยกเลิก</a>
     <br><br>
   </div>

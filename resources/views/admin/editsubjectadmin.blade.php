@@ -21,8 +21,8 @@
 	  </thead>
 	  <tbody>
 		<tr class="row100">
-		  <td class="column100 " data-column="column1"><select><option type="text" value="080303503" >080303503</option><option>080303501</option></select></td>
-		  <td class="column100 column2" data-column="column2">BASKETBALL 1(0-1) เปลี่ยน ตาม id</td>
+		  <td class="column100 " data-column="column1"><select id = "subject" onchange="myFunction()"><option type="text" value="BASKETBALL 1(0-1)" >080303501</option><option type="text" value="VOLLEYBALL 1(0-1)">080303502</option></select></td>
+		  <td class="column100 column2" data-column="column2"><a id="select">ขึ้นตรงกับที่เลือก ID ไว้</a></td>
 		  {{-- <td class="column100 column2" data-column="column2"><input type="text" value="BASKETBALL 1(0-1)" ></td> --}}
 		  <td class="column100 column3" data-column="column3"><input type="text" value="1" ></td>
 		  <td class="column100 column4" data-column="column4"><input type="text" value="50" ></td>
@@ -37,7 +37,12 @@
     <a style="margin-right: 50px"  class="btn btn-success">ตกลง</a>
     <a href="{{ url('editsubject') }}"  class="btn btn-danger">ยกเลิก</a>
     
-     
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("subject").value;
+		  document.getElementById("select").innerHTML =   x;
+		}
+		</script>
 
 	
     
