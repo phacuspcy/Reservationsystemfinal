@@ -1151,6 +1151,75 @@ th, td {
   text-align: center;
   vertical-align: top;
 }
+/* ---------------------EDIT SUBJECT----------------------------- */
+.table100.ver1 .add-new {
+  float: right;
+height: 30px;
+font-weight: bold;
+font-size: 20px;
+text-shadow: none;
+min-width: 100px;
+border-radius: 50px;
+line-height: 13px;
+}
+
+.table100.ver1 a.add {
+  color: #27C46B;
+}
+.table100.ver1 a.edit {
+  color: #FFC107;
+}
+.table100.ver1 a.delete {
+  color: #E34724;
+}
+.table100.ver1 .add {
+  display: none;
+}
+
+.table100.ver1 .form-control {
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+.table100.ver1 th:last-child {
+  width: 100px;
+}
+
+.table100.ver1 td a.add i {
+  font-size: 24px;
+  margin-right: -1px;
+  position: relative;
+  top: 3px;
+}  
+
+.table100.ver1 .add-new {
+  float: right;
+height: 30px;
+font-weight: bold;
+font-size: 12px;
+text-shadow: none;
+min-width: 100px;
+border-radius: 50px;
+line-height: 13px;
+}
+.table100.ver1 .add-new i {
+margin-right: 4px;
+}
+
+.table100.ver1 .form-control.error {
+  border-color: #f50000;
+}
+
+.table100.ver1 td a {
+  cursor: pointer;
+      display: inline-block;
+      margin: 0 5px;
+  min-width: 24px;
+  }   
+
+/*----------------------------------------*/
 
 .table100.ver1 th {
   font-family: Montserrat-Medium;
@@ -1192,6 +1261,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  color:black;
   
 }
 
