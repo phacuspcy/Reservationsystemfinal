@@ -105,7 +105,6 @@
     // Append table with add row form on add new button click
     $(".add-new").click(function(){
       
-      $(this).attr("disabled", "disabled");
       var index = $("table tbody tr:last-child").index();
       var row = '<tr class="row100">' +
         '<td class="column100 "><input type="text" class="form-control" name="id" id="id"></td>' +
