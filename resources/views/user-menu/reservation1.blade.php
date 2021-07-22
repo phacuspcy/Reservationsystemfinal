@@ -2,88 +2,88 @@
 @extends('layouts.header')
 @extends('layouts.slidebar')
 
-@section('title','การจองวิชาเรียน')
+@section('title', 'การจองวิชาเรียน')
 
 @section('content')
-                               
-     <div class="table100 ver1 m-b-110">
-					<table data-vertable="ver1" class="center">
-						<thead>
-							<tr class="row100 head">
-								<th class="column100 column1" data-column="column1">วัน&nbsp;&nbsp;&nbsp;/<br>เวลา</th>
-								<th class="column100 column2" data-column="column2">08:00 - 10:00</th>
-								<th class="column100 column3" data-column="column3">10:00 - 12:00</th>
-								<th class="column100 column4" data-column="column4">12:00 - 13:00</th>
-								<th class="column100 column5" data-column="column5">13:00 - 15:00</th>
-								<th class="column100 column6" data-column="column6">16:00 - 18:00</th>
-								<th class="column100 column7" data-column="column7">18:00 - 20:00</th>
-								
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="row100">
-								<td class="column100 " data-column="column1">วันจันทร์</td>
-								<td class="column100 column2" data-column="column2">AM</td>
-								<td class="column100 column3" data-column="column3">--</td>
-								<td class="column100 column4" data-column="column4">--</td>
-								<td class="column100 column5" data-column="column5">8:00 AM</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">5:00 PM</td>
-								
-							</tr>
 
-							<tr class="row100">
-								<td class="column100" data-column="column1">วันอังคาร</td>
-								<td class="column100 column2" data-column="column2">--</td>
-								<td class="column100 column3" data-column="column3">5:00 PM</td>
-								<td class="column100 column4" data-column="column4">5:00 PM</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">9:00 AM</td>
-								<td class="column100 column7" data-column="column7">--</td>
-								
-							</tr>
+    <div class="table100 ver1 m-b-110">
+        <table data-vertable="ver1" class="center">
+            <thead>
+                <tr class="row100 head">
+                    <th class="column100 column1" data-column="column1">วัน&nbsp;&nbsp;&nbsp;/<br>เวลา</th>
+                    <th class="column100 column2" data-column="column2">08:00 - 10:00</th>
+                    <th class="column100 column3" data-column="column3">10:00 - 12:00</th>
+                    <th class="column100 column4" data-column="column4">12:00 - 13:00</th>
+                    <th class="column100 column5" data-column="column5">13:00 - 15:00</th>
+                    <th class="column100 column6" data-column="column6">16:00 - 18:00</th>
+                    <th class="column100 column7" data-column="column7">18:00 - 20:00</th>
 
-							<tr class="row100">
-								<td class="column100" data-column="column1">วันพุธ</td>
-								<td class="column100 column2" data-column="column2">9:00 AM</td>
-								<td class="column100 column3" data-column="column3">--</td>
-								<td class="column100 column4" data-column="column4">--</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">2:00 PM</td>
-								
-							</tr>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row100">
+                    <td class="column100 " data-column="column1">วันจันทร์</td>
+                    <td class="column100 column2" data-column="column2">AM</td>
+                    <td class="column100 column3" data-column="column3">--</td>
+                    <td class="column100 column4" data-column="column4">--</td>
+                    <td class="column100 column5" data-column="column5">8:00 AM</td>
+                    <td class="column100 column6" data-column="column6">--</td>
+                    <td class="column100 column7" data-column="column7">5:00 PM</td>
 
-							<tr class="row100">
-								<td class="column100" data-column="column1">วันพฤหัสบดี</td>
-								<td class="column100 column2" data-column="column2">--</td>
-								<td class="column100 column3" data-column="column3">5:00 PM</td>
-								<td class="column100 column4" data-column="column4">5:00 PM</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">9:00 AM</td>
-								<td class="column100 column7" data-column="column7">--</td>
-								
-							</tr>
+                </tr>
 
-							<tr class="row100">
-								<td class="column100" data-column="column1">วันศุกร์</td>
-								<td class="column100 column2" data-column="column2">8:00 AM</td>
-								<td class="column100 column3" data-column="column3">--</td>
-								<td class="column100 column4" data-column="column4">--</td>
-								<td class="column100 column5" data-column="column5">8:00 AM</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">5:00 PM</td>
-								
-							</tr>
+                <tr class="row100">
+                    <td class="column100" data-column="column1">วันอังคาร</td>
+                    <td class="column100 column2" data-column="column2">--</td>
+                    <td class="column100 column3" data-column="column3">5:00 PM</td>
+                    <td class="column100 column4" data-column="column4">5:00 PM</td>
+                    <td class="column100 column5" data-column="column5">--</td>
+                    <td class="column100 column6" data-column="column6">9:00 AM</td>
+                    <td class="column100 column7" data-column="column7">--</td>
 
-							
+                </tr>
 
-							
-						</tbody>
-					</table>
-                    
+                <tr class="row100">
+                    <td class="column100" data-column="column1">วันพุธ</td>
+                    <td class="column100 column2" data-column="column2">9:00 AM</td>
+                    <td class="column100 column3" data-column="column3">--</td>
+                    <td class="column100 column4" data-column="column4">--</td>
+                    <td class="column100 column5" data-column="column5">--</td>
+                    <td class="column100 column6" data-column="column6">--</td>
+                    <td class="column100 column7" data-column="column7">2:00 PM</td>
 
-	</div>
+                </tr>
+
+                <tr class="row100">
+                    <td class="column100" data-column="column1">วันพฤหัสบดี</td>
+                    <td class="column100 column2" data-column="column2">--</td>
+                    <td class="column100 column3" data-column="column3">5:00 PM</td>
+                    <td class="column100 column4" data-column="column4">5:00 PM</td>
+                    <td class="column100 column5" data-column="column5">--</td>
+                    <td class="column100 column6" data-column="column6">9:00 AM</td>
+                    <td class="column100 column7" data-column="column7">--</td>
+
+                </tr>
+
+                <tr class="row100">
+                    <td class="column100" data-column="column1">วันศุกร์</td>
+                    <td class="column100 column2" data-column="column2">8:00 AM</td>
+                    <td class="column100 column3" data-column="column3">--</td>
+                    <td class="column100 column4" data-column="column4">--</td>
+                    <td class="column100 column5" data-column="column5">8:00 AM</td>
+                    <td class="column100 column6" data-column="column6">--</td>
+                    <td class="column100 column7" data-column="column7">5:00 PM</td>
+
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+
+
+    </div>
 
     <br><br> <a>วัน :</a>
     <select class="form-group form-control-sm">
@@ -134,9 +134,9 @@
     </select>
 
     <br> <a>จำนวนนักศึกษาที่ต้องการจอง :</a>
-        <input>
+    <input>
     </select>
-    
-     
-    
+
+
+
 @endsection

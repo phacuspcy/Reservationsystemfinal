@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <title>header- @yield('title')</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body class="header">
     <div>
-        <img src="assets/images/banner.jpg" width="100%" height="180"/>  
+        <img src="assets/images/banner.jpg" width="100%" height="180" />
     </div>
-    
-</body>
-</html>
 
+</body>
+
+</html>

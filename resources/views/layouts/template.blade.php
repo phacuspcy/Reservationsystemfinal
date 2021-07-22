@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +17,16 @@
     <link href="assets/node_modules/c3-master/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <div id="main-wrapper"> 
+    <div id="main-wrapper">
         {{-- <aside class="left-sidebar">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar">
@@ -46,7 +53,7 @@
             </div>
             <!-- End Sidebar scroll-->
         </aside> --}}
-        <!-- End left-slidebar -->  
+        <!-- End left-slidebar -->
         <div class="page-wrapper">
             <div class="container-fluid">
                 <div class="row">
@@ -54,12 +61,12 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="d-flex no-block" >
+                                <div class="d-flex no-block">
                                     <div class=" center">
-                                    <div>
-                                        @yield('content')   
+                                        <div>
+                                            @yield('content')
+                                        </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
                             <!-- End card-body -->
@@ -71,11 +78,12 @@
                 <!-- End row -->
             </div>
             <!-- End Container fluid  -->
-            
+
             <footer class="footer"> © 2021 FACULTY OF APPLIED ARTS KMUTNB </footer>
             <!-- End footer -->
         </div>
     </div>
-    
+
 </body>
+
 </html>
