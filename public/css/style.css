@@ -438,13 +438,11 @@ Main sidebar
 ******************/
 .left-sidebar {
   position: absolute;
-  width: 250px;
   height: 100%;
-  top: 180px;
+  top: 190px;
   z-index: 20;
   /* padding-top: 70px; */
-  background: #212121;
-  border-right: 1px solid rgba(120, 130, 140, 0.13); }
+  }
 
 
 

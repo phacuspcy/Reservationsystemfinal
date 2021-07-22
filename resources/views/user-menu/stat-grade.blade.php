@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @extends('layouts.header')
-@extends('layouts.slidebaradmin')
+@extends('layouts.slidebar')
 
 @section('title','index')
 
