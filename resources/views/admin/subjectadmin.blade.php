@@ -63,6 +63,8 @@
                     '<td class="column100 "><input type="text" class="form-control" name="id" id="id"></td>' +
                     '<td class="column100 "><input type="text" class="form-control" name="subject" id="subject"></td>' +
                     '<td class="column100 "><input type="text" class="form-control" name="sec" id="sec"></td>' +
+                    '<td class="column100 "><input type="text" class="form-control" name="date" id="date"></td>' +
+                    '<td class="column100 "><input type="text" class="form-control" name="time" id="time"></td>' +
                     '<td class="column100 "><input type="text" class="form-control" name="people" id="people"></td>' +
                     '<td>' + actions + '</td>' +
                     '</tr>';
