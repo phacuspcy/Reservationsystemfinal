@@ -2,7 +2,7 @@
 @extends('layouts.header')
 @extends('layouts.slidebar')
 
-@section('title','index')
+@section('title', 'index')
 
 @section('content')
                                
