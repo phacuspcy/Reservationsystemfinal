@@ -6,8 +6,55 @@
 @section('title', 'index')
 
 @section('content')
+<body class="table100 ver1 m-b-110">
+    <h3>แก้ไขสถิติการจองวิชาเรียน</h3>
+    <br>
+    <span>ปีการศึกษา : &nbsp;&nbsp;</span>
 
-    <head>
+    <select id="select" class="form-group form-control-sm" style="width: 80px">
+        <option>2563</option>
+        <option>2564</option>
+    </select>
+
+    <a href="{{ url('editstatadmin') }}" class="btn btn-warning">แก้ไข</a>
+
+
+    <br>
+
+    <div class="table100 ver1 m-b-110 " id="piechart_3d" style="width:600px; height: 400px;"></div>
+</body>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load("current", {
+        packages: ["corechart"]
+    });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Select Subject'],
+            ['BASKETBALL', 1],
+            ['VOLLEYBALL', 1],
+            ['BADMINTON', 1],
+            ['DANCING', 1],
+            ['TABLETENNIS', 1]
+        ]);
+
+        var options = {
+
+            title: 'สถิติการจองวิชาเรียน',
+            is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+    }
+</script>
+
+
+
+    {{-- <head>
         <h3>แก้ไขสถิติการจองวิชาเรียน</h3>
         <br>
         <span>ปีการศึกษา : &nbsp;&nbsp;</span>
@@ -55,6 +102,6 @@
         }
     </script>
 
-    </head>
+    </head> --}}
 
 @endsection

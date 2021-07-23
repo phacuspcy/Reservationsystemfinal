@@ -6,8 +6,7 @@
 
 @section('content')
 
-
-    <head>
+<body class="table100 ver1 m-b-110"> 
         <h3>สถิติการจองวิชาเรียน</h3><br>
 
         <span>ปีการศึกษา : &nbsp;&nbsp;</span>
@@ -21,9 +20,8 @@
         <br>
         {{-- <a id="year"></a> --}}
 
-    <body>
-        <div id="piechart_3d" style="width: 1280px; height: 700px;"></div>
-    </body>
+        <div class="table100 ver1 m-b-110 " id="piechart_3d" style="width:600px; height: 400px;"></div>
+</body>
 
 
     {{-- <script>
@@ -62,9 +60,5 @@
             chart.draw(data, options);
         }
     </script>
-    </head>
-
-
-
 
 @endsection
