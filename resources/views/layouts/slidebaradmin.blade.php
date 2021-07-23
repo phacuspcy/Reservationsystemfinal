@@ -38,7 +38,7 @@
                     <a href="{{ url('editstat') }}"><span class="mr-3"></span> แก้ไขสถิติการจองวิชาเรียน</a>
                   </li>
                   <li>
-                    <a href="{{ url('editgrade') }}"><span class="mr-3"></span> แก้ไขสถิติการได้เกรด</a>
+                    <a href="{{ url('editgradeadmin') }}"><span class="mr-3"></span> แก้ไขสถิติการได้เกรด</a>
                   </li>
                   <li>
                     <a href="{{ url('login') }}"><span class="mr-3"></span> ออกจากระบบ</a>

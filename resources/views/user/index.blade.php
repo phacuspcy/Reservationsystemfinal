@@ -22,6 +22,4 @@
     <h6>COMPUTER SCIENCE</h6>
     <h6>COMPUTER SCIENCE</h6>
     
-     
-    
 @endsection

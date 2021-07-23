@@ -14,8 +14,9 @@
 		  <th class="column100 column1" data-column="column1">รหัสวิชา</th>
 		  <th class="column100 column2" data-column="column2">ชื่อวิชา</th>
 		  <th class="column100 column3" data-column="column3">ตอนเรียน</th>
-		  <th class="column100 column3" data-column="column3">จำนวนนักศึกษาที่รองรับ</th>
-		  
+		  <th class="column100 column4" data-column="column4">วัน</th>
+		  <th class="column100 column5" data-column="column5">เวลา</th>
+		  <th class="column100 column6" data-column="column6">จำนวนนักศึกษาที่รองรับ</th>
 		  
 		</tr>
 	  </thead>
@@ -35,7 +36,7 @@
 
   <br>
     <a style="margin-right: 50px"  class="btn btn-success">ตกลง</a>
-    <a href="{{ url('editsubject') }}"  class="btn btn-danger">ยกเลิก</a>
+    <a href="{{ url('editsubject') }}"  class="btn btn-d	anger">ยกเลิก</a>
     
 	<script>
 		function myFunction() {

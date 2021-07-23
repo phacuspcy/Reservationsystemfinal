@@ -26,10 +26,10 @@
 		  <th class="column100 column1" data-column="column1">รหัสวิชา</th>
 		  <th class="column100 column2" data-column="column2">ชื่อวิชา</th>
 		  <th class="column100 column3" data-column="column3">ตอนเรียน</th>
-		  <th class="column100 column4" data-column="column4">จำนวนนักศึกษาที่รองรับ</th>
-		  <th class="column100 column5" data-column="column5">Action</th>
-		  
-		  
+		  <th class="column100 column4" data-column="column4">วัน</th>
+		  <th class="column100 column5" data-column="column5">เวลา</th>
+		  <th class="column100 column6" data-column="column6">จำนวนนักศึกษาที่รองรับ</th>
+		  <th class="column100 column7" data-column="column7">Action</th>  		  
 		</tr>
 	  </thead>
 	  <tbody>
@@ -37,7 +37,9 @@
 		  <td class="column100 " data-column="column1">080303503</td>
 		  <td class="column100 column2" data-column="column2">BASKETBALL 1(0-1)</td>
 		  <td class="column100 column3" data-column="column3">1</td>
-		  <td class="column100 column4" data-column="column4">50</td>
+		  <td class="column100 column4" data-column="column4">Monday</td>	  	  
+		  <td class="column100 column5" data-column="column5">08:00 - 10:00</td>	
+		  <td class="column100 column6" data-column="column6">50</td>
 		  <td>
 			<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
 			<a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
@@ -64,7 +66,10 @@
 						'<td class="column100 "><input type="text" class="form-control" name="id" id="id"></td>' +
 						'<td class="column100 "><input type="text" class="form-control" name="subject" id="subject"></td>' +
 						'<td class="column100 "><input type="text" class="form-control" name="sec" id="sec"></td>' +
+						'<td class="column100 "><input type="text" class="form-control" name="date" id="date"></td>' +
+						'<td class="column100 "><input type="text" class="form-control" name="time" id="time"></td>' +
 						'<td class="column100 "><input type="text" class="form-control" name="people" id="people"></td>' +
+						
 						'<td>' + actions + '</td>' +
 					'</tr>';
 					$("table").append(row);		

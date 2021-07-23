@@ -64,13 +64,13 @@
                     <a href="{{ url('history') }}"><span class="mr-3"></span> ประวัติการจองวิชาเรียน</a>
                   </li>
                   <li>
-                    <a href="{{ url('cancelreservation') }}"><span class="mr-3"></span> ยกเลิกการจองวิชาเรียน</a>
+                    <a href="{{ url('canclereservation') }}"><span class="mr-3"></span> ยกเลิกการจองวิชาเรียน</a>
                   </li>
                   <li>
-                    <a href="{{ url('stat-reservation') }}"><span class="mr-3"></span> สถิติการจองวิชาเรียน</a>
+                    <a href="{{ url('statreservation') }}"><span class="mr-3"></span> สถิติการจองวิชาเรียน</a>
                   </li>
                   <li>
-                    <a href="{{ url('stat-grade') }}"><span class="mr-3"></span> สถิติการได้เกรด</a>
+                    <a href="{{ url('statgrade') }}"><span class="mr-3"></span> สถิติการได้เกรด</a>
                   </li>
                   <li>
                     <a href="{{ url('login') }}"><span class="mr-3"></span> ออกจากระบบ</a>

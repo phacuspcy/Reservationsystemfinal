@@ -36,7 +36,7 @@
         </tbody>
       </table>
         <br>
-      <a href="{{ url('editgradeadmin') }}"  class="btn btn-warning">แก้ไข</a>
+      <a href="{{ url('editgrade') }}"  class="btn btn-warning">แก้ไข</a>
 
       </div>
 

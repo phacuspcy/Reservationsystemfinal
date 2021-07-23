@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @extends('layouts.header')
-@extends('layouts.slidebaradmin')
+@extends('layouts.slidebar')
 
 @section('title','index')
 
@@ -8,7 +8,7 @@
                                
 <body>
   
-    <h3>แก้ไขสถิติการได้เกรด</h3>
+    <h3>สถิติการได้เกรด</h3>
     <br>
 
 
