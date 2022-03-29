@@ -437,6 +437,7 @@ Layouts
 Main sidebar
 ******************/
 .left-sidebar {
+  text-align: left;
   position: absolute;
   height: 100%;
   top: 190px;
@@ -732,7 +733,7 @@ sidebar navigation
     padding: 10px 10px; }
   
   .card {
-    background-color: #212121;
+    background-color: #212121; 
     margin-bottom: 30px;
    }
     .card .card-subtitle {
@@ -1262,6 +1263,9 @@ input[type=text], select, textarea {
   color:black;
   
 }
+label{
+  padding: 20px;
+}
 
 
 .container {
@@ -1355,7 +1359,7 @@ input[type=text], select, textarea {
         #sidebar ul li > ul li {
           font-size: 14px; }
       #sidebar ul li a {
-        padding: 15px 30px;
+        padding: 15px 10px;
         display: block;
         color: rgba(255, 255, 255, 0.6);
         border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
@@ -1429,77 +1433,75 @@ input[type=text], select, textarea {
 
   /*---------------UPLOAD---------------------*/
 
+          
+  #custom_input {
+    position: relative;
+    font-size: 16px;
+    border: 3px solid black;
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: rgb(224, 187, 64);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  #custom_input::before
+  #custom_input::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+  
+  #custom_input::before {
+    transform: translateX(-100%);
+  }
+  
+  #custom_input::after {
+    transform: translateX(100%);
+  }
+  
+  #custom_input:hover::before,
+  #custom_input:hover::after {
+    transform: translateX(0%);
+  }
+  
+  #custom_input:hover {
+    color: white;
+  }
+  
+  #custom_input:focus {
+    outline: none;
+  }
+  
+  /* file */
+  
+  #file_name {
+    
+    font-size: 16px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  
+  #file_name.active {
+    
+    padding: 0 10px;
+    
+  }
+  
+  #real_input {
+    display: none;
+  }
 
-          
-
-          
-          #custom_input {
-            position: relative;
-            font-size: 16px;
-            border: 3px solid black;
-            height: 30px;
-            width: 100px;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            background-color: rgb(224, 187, 64);
-            cursor: pointer;
-            overflow: hidden;
-            transition: all 0.3s;
-          }
-          
-          #custom_input::before
-          #custom_input::after {
-            position: absolute;
-            content: "";
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background-color: gray;
-            z-index: -1;
-            transition: all 0.3s;
-          }
-          
-          #custom_input::before {
-            transform: translateX(-100%);
-          }
-          
-          #custom_input::after {
-            transform: translateX(100%);
-          }
-          
-          #custom_input:hover::before,
-          #custom_input:hover::after {
-            transform: translateX(0%);
-          }
-          
-          #custom_input:hover {
-            color: white;
-          }
-          
-          #custom_input:focus {
-            outline: none;
-          }
-          
-          /* file */
-          
-          #file_name {
-            
-            font-size: 16px;
-            height: 40px;
-            color: rgb(0, 0, 0);
-            align-items: center;
-            overflow: hidden;
-            transition: all 0.5s;
-          }
-          
-          #file_name.active {
-            
-            padding: 0 10px;
-            
-          }
-          
-          #real_input {
-            display: none;
-          }
           

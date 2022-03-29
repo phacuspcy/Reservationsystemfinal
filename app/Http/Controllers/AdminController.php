@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    function editsubject(){
-        return view('admin.subjectadmin');
+    function managesubject(){
+        return view('admin.managesubject');
     }
-    function editreservation(){
-        return view('admin.editreservation');
+    function managereservation(){
+        return view('admin.managereservation');
     }
-    function editstat(){
-        return view('admin.editstatreservation');
+    function managestatic(){
+        return view('admin.managestatic');
     }
     function editstatadmin(){
         return view('admin.editstatadmin');
@@ -21,7 +21,13 @@ class AdminController extends Controller
     function editgrade(){
         return view('admin.editgrade');
     }
-    function editgradeadmin(){
-        return view('admin.editgradeadmin');
+    function managegradeadmin(){
+        return view('admin.managegradeadmin');
+    }
+    function addsubject(){
+        return view('admin.addsubject');
+    }
+    function editsubject(){
+        return view('admin.editsubject');
     }
 }

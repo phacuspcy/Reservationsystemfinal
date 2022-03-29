@@ -7,14 +7,8 @@
 @section('content')
     <h3>แก้ไขรายวิชาเรียนที่เปิด</h3>
     <br>
-
-
-
-    <div class="table100 ver1">
-        <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add Row</button>
-
-        <br><br>
-
+    <div class="table100 ver1 m-b-110">
+        <a href="{{ url('addsubject') }}"><button class="btn btn-info add-new"><i class="fa fa-plus"></i> เพิ่มวิชาเรียน </button></a><br><br>
         <table data-vertable="ver1">
             <thead>
                 <tr class="row100 head">
@@ -24,11 +18,13 @@
                     <th class="column100 column4" data-column="column4">วัน</th>
                     <th class="column100 column5" data-column="column5">เวลา</th>
                     <th class="column100 column6" data-column="column6">จำนวนนักศึกษาที่รองรับ</th>
-                    <th class="column100 column7" data-column="column7">Action</th>
-
-
+                    <th class="column100 column7" data-column="column7">แก้ไข</th>
+                    <th class="column100 column8" data-column="column8">ซ่อน</th>
                 </tr>
             </thead>
+            <tbody>
+
+            </tbody>
             <tbody>
                 <tr class="row100">
                     <td class="column100 " data-column="column1">080303503</td>
@@ -37,13 +33,14 @@
                     <td class="column100 column4" data-column="column4">Monday</td>
                     <td class="column100 column5" data-column="column5">10.00-12.00</td>
                     <td class="column100 column6" data-column="column6">50</td>
-                    <td>
-                        <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                        <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                        <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                    <td class="column100 column7" data-column="column7">
+                        <a href="{{ url('editsubject') }}" class="edit"><i class="material-icons">&#xE254;</i></a>
                     </td>
-
-
+                    <td class="column100 column8" data-column="column8">
+                        <div>
+                            <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                        </div>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -51,7 +48,7 @@
 
 
 
-    <script>
+    {{-- <script>
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
             var actions = $("table td:last-child").html();
@@ -108,6 +105,6 @@
                 $(".add-new").removeAttr("disabled");
             });
         });
-    </script>
+    </script> --}}
 
 @endsection

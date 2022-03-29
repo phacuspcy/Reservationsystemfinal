@@ -41,16 +41,16 @@
 
                 <ul class="list-unstyled components mb-5">
                   <li>
-                    <a href="{{ url('editsubject') }}"><span class="mr-3"></span> แก้ไขรายวิชาเรียนที่เปิด</a>
+                    <a href="{{ url('managesubject') }}"><span class="mr-3"></span> จัดการรายวิชาเรียนที่เปิด</a>
                   </li>
                   <li>
-                      <a href="{{ url('editreservation') }}"><span class="mr-3"></span> แก้ไขรายการจองวิชาเรียน</a>
+                      <a href="{{ url('managereservation') }}"><span class="mr-3"></span> จัดการรายการจองวิชาเรียน</a>
                   </li>
                   <li>
-                    <a href="{{ url('editstat') }}"><span class="mr-3"></span> แก้ไขสถิติการจองวิชาเรียน</a>
+                    <a href="{{ url('managestatic') }}"><span class="mr-3"></span> จัดการสถิติการจองวิชาเรียน</a>
                   </li>
                   <li>
-                    <a href="{{ url('editgradeadmin') }}"><span class="mr-3"></span> แก้ไขสถิติการได้เกรด</a>
+                    <a href="{{ url('managegradeadmin') }}"><span class="mr-3"></span> จัดการสถิติการได้เกรด</a>
                   </li>
                   <li>
                     <a href="{{ url('login') }}"><span class="mr-3"></span> ออกจากระบบ</a>

@@ -61,7 +61,7 @@
 
         <br>
         <a style="margin-right: 50px" class="btn btn-success">ตกลง</a>
-        <a class="btn btn-danger" href="{{ url('editstat') }}">ยกเลิก</a>
+        <a class="btn btn-danger" href="{{ url('managestatic') }}">ยกเลิก</a>
         <br><br>
     </div>
     <br>

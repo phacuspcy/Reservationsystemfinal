@@ -12,11 +12,11 @@
         <h2 style="text-align: center">เลือกวิชาที่ต้องการจอง</h2>
         <br>
         <select class="form-group form-control-sm" id="menu">
-            <option value="{{ url('Basketball') }}">080303501 BASKETBALL</option>
-            <option value="{{ url('Volley') }}">080303502 VOLLEYBALL</option>
-            <option value="{{ url('Badminton') }}">080303503 BADMINTON</option>
-            <option value="{{ url('Dancing') }}">080303504 DANCING</option>
-            <option value="{{ url('Tabletennis') }}">080303505 TABLETENNIS</option>
+            <option value="{{ url('reservation1') }}">080303501 BASKETBALL</option>
+            <option value="{{ url('reservation1') }}">080303502 VOLLEYBALL</option>
+            <option value="{{ url('reservation1') }}">080303503 BADMINTON</option>
+            <option value="{{ url('reservation1') }}">080303504 DANCING</option>
+            <option value="{{ url('reservation1') }}">080303505 TABLETENNIS</option>
         </select>
         <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" id="goBtn">ยืนยัน</a>
 

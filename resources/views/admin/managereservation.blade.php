@@ -2,7 +2,6 @@
 @extends('layouts.header')
 @extends('layouts.slidebaradmin')
 
-
 @section('title', 'index')
 
 @section('content')
@@ -27,7 +26,7 @@
                     <td class="column100 column2" data-column="column2">Prayut</td>
                     <td class="column100 column3" data-column="column3">080303501 BASKETBALL 1(0-1)</td>
                     <td class="column100 column4" data-column="column4">เมี๊ยว</td>
-                    <td class="column100 column4" data-column="column4"><a href="#" class="btn btn-danger"
+                    <td class="column100 column5" data-column="column4"><a href="#" class="btn btn-danger"
                             class="open-button" onclick="openForm()">ยกเลิกการจอง</a></td>
 
 

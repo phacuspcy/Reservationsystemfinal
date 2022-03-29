@@ -15,6 +15,9 @@ class UserController extends Controller
     function reservation(){
         return view('user-menu.reservation');
     }
+    function reservation1(){
+        return view('user-menu.reservation1');
+    }
     function canclereservation(){
         return view('user-menu.canclereservation');
     }

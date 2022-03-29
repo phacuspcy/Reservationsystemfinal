@@ -119,15 +119,18 @@ Route::get('/login',[AboutController::class,'login']);
 Route::get('/',[UserController::class,'index']);
 Route::get('/subjects',[UserController::class,'subjects']);
 Route::get('/reservation',[UserController::class,'reservation']);
+Route::get('/reservation1',[UserController::class,'reservation1']);
 Route::get('/canclereservation',[UserController::class,'canclereservation']);
 Route::get('/history',[UserController::class,'history']);
 Route::get('/statreservation',[UserController::class,'statreservation']);
 Route::get('/statgrade',[UserController::class,'statgrade']);
 
 //ROUTE ADMIN
-Route::get('/editsubject',[AdminController::class,'editsubject']);
-Route::get('/editreservation',[AdminController::class,'editreservation']);
-Route::get('/editstat',[AdminController::class,'editstat']);
+Route::get('/managesubject',[AdminController::class,'managesubject']);
+Route::get('/managereservation',[AdminController::class,'managereservation']);
+Route::get('/managestatic',[AdminController::class,'managestatic']);
 Route::get('/editstatadmin',[AdminController::class,'editstatadmin']);
 Route::get('/editgrade',[AdminController::class,'editgrade']);
-Route::get('/editgradeadmin',[AdminController::class,'editgradeadmin']);
+Route::get('/managegradeadmin',[AdminController::class,'managegradeadmin']);
+Route::get('/addsubject',[AdminController::class,'addsubject']);
+Route::get('/editsubject',[AdminController::class,'editsubject']);
